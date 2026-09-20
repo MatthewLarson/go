@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "1.0",
+  "id": "go",
+  "name": "Go The Game",
+  "version": "0.1.0",
+  "type": "game-pack",
+  "entry": {
+    "setup": "setup.json",
+    "script": "scripts/main.js"
+  },
+  "assets": [
+    "media/cover-thumb.webp",
+    "media/cover.webp",
+    "media/screenshot-0.webp",
+    "media/screenshot-1.webp",
+    "media/screenshot-2.webp",
+    "models/go-board.web.glb",
+    "models/go-board.web.meta.json",
+    "textures/go-board-web/image-3-f2a1f610.webp",
+    "textures/go-board-web/image-4-087fb3a2.webp",
+    "textures/go-board-web/image-5-9a32e9b6.webp"
+  ],
+  "compatibility": {
+    "engine": ">=0.1 <1.0"
+  },
+  "capabilities": {
+    "version": "1",
+    "allowed": [
+      "log"
+    ]
+  },
+  "license": "MIT",
+  "tags": [
+    "go",
+    "weiqi",
+    "baduk",
+    "strategy",
+    "abstract",
+    "board-game",
+    "chinese"
+  ],
+  "slug": "gothegame",
+  "summary": "The timeless strategy game of Go",
+  "description": "The timeless strategy game of Go",
+  "category": "abstract-strategy",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "coverImage": "media/cover.webp",
+  "credits": [
+    {
+      "id": "credit-bc054908-ffea-455d-a947-5cbf46c9247b",
+      "paths": [
+        "media/cover-thumb.webp",
+        "media/cover.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Images",
+      "recordedAt": "2026-09-20T20:20:33.379Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-20T20:20:33.379Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-ba78ef9e-93ca-4a6e-8a8e-c1f56e17f3f1",
+      "paths": [
+        "models/go-board.web.glb",
+        "models/go-board.web.meta.json",
+        "textures/go-board-web/image-3-f2a1f610.webp",
+        "textures/go-board-web/image-4-087fb3a2.webp",
+        "textures/go-board-web/image-5-9a32e9b6.webp"
+      ],
+      "origin": "third-party",
+      "title": "Go Ghess Board-4K-MaterialTest",
+      "creator": "chiwei",
+      "creatorUrl": "https://sketchfab.com/chiwei2333",
+      "sourceUrl": "https://sketchfab.com/3d-models/go-ghess-board-4k-materialtest-e7c17918e0314d7f8dfd385a71141e27",
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "recordedAt": "2026-09-20T20:22:22.969Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-20T20:22:22.969Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-8352a291-110d-44e2-9cdf-ff3ee05f3e43",
+      "paths": [
+        "media/screenshot-0.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Images",
+      "recordedAt": "2026-09-20T20:25:46.122Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-20T20:25:46.122Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-9faf1c6c-bc99-45fd-99fc-e26bc1c70d37",
+      "paths": [
+        "media/screenshot-1.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Images",
+      "recordedAt": "2026-09-20T20:26:02.344Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-20T20:26:02.344Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-d1c57fe4-533f-4af5-b8af-918a7d19c813",
+      "paths": [
+        "media/screenshot-2.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Images",
+      "recordedAt": "2026-09-20T20:26:22.379Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-20T20:26:22.379Z",
+        "signedName": "Matt Larson"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "media/screenshot-2.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
+      }
+    },
+    {
+      "path": "media/screenshot-1.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
+      }
+    },
+    {
+      "path": "media/screenshot-0.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "rendererVersion": 1,
+  "entries": {
+    "@materials/mat-58c537f8-e847-4d58-8776-cf72c35ad7f8": {
+      "inputHash": "c818ea7784b735fd",
+      "file": "thumbnails/@materials/mat-58c537f8-e847-4d58-8776-cf72c35ad7f8.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-ceiling": {
+      "inputHash": "220ee3bdf8d37625",
+      "file": "thumbnails/@materials/mat-ceiling.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-default": {
+      "inputHash": "eccf03f485688ce9",
+      "file": "thumbnails/@materials/mat-default.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-floor": {
+      "inputHash": "4faeb6a28ac0884c",
+      "file": "thumbnails/@materials/mat-floor.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-wall": {
+      "inputHash": "8b1c33f064be0752",
+      "file": "thumbnails/@materials/mat-wall.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/cover-thumb.webp": {
+      "inputHash": "d90b2ed98ec03cdd",
+      "file": "thumbnails/media/cover-thumb.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/cover.webp": {
+      "inputHash": "5d107d8d45f1c571",
+      "file": "thumbnails/media/cover.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/screenshot-0.webp": {
+      "inputHash": "9518c8addbdbefd1",
+      "file": "thumbnails/media/screenshot-0.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-1.webp": {
+      "inputHash": "7c30b21d5d635ff4",
+      "file": "thumbnails/media/screenshot-1.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-2.webp": {
+      "inputHash": "b5a354f6d933791f",
+      "file": "thumbnails/media/screenshot-2.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "models/go-board.web.glb": {
+      "inputHash": "fdef0f52cec13c07",
+      "file": "thumbnails/models/go-board.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-web/image-3-f2a1f610.webp": {
+      "inputHash": "3a29ad36055bc192",
+      "file": "thumbnails/textures/go-board-web/image-3-f2a1f610.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-web/image-4-087fb3a2.webp": {
+      "inputHash": "f39f45ca43b3fbf5",
+      "file": "thumbnails/textures/go-board-web/image-4-087fb3a2.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-web/image-5-9a32e9b6.webp": {
+      "inputHash": "40eedb903c938e31",
+      "file": "thumbnails/textures/go-board-web/image-5-9a32e9b6.webp.webp",
+      "width": 256,
+      "height": 256
+    }
+  }
+}
