@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "id": "go",
-  "name": "Go",
+  "name": "Go The Game",
   "version": "0.1.0",
   "type": "game-pack",
   "entry": {
@@ -11,6 +11,9 @@
   "assets": [
     "media/cover-thumb.webp",
     "media/cover.webp",
+    "media/screenshot-0.webp",
+    "media/screenshot-1.webp",
+    "media/screenshot-2.webp",
     "models/go-board.web.glb",
     "models/go-board.web.meta.json",
     "textures/go-board-web/image-3-f2a1f610.webp",
@@ -82,6 +85,77 @@
         "termsVersion": "2026-09-07.1",
         "acceptedAt": "2026-09-20T20:22:22.969Z",
         "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-8352a291-110d-44e2-9cdf-ff3ee05f3e43",
+      "paths": [
+        "media/screenshot-0.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Images",
+      "recordedAt": "2026-09-20T20:25:46.122Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-20T20:25:46.122Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-9faf1c6c-bc99-45fd-99fc-e26bc1c70d37",
+      "paths": [
+        "media/screenshot-1.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Images",
+      "recordedAt": "2026-09-20T20:26:02.344Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-20T20:26:02.344Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-d1c57fe4-533f-4af5-b8af-918a7d19c813",
+      "paths": [
+        "media/screenshot-2.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Images",
+      "recordedAt": "2026-09-20T20:26:22.379Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-20T20:26:22.379Z",
+        "signedName": "Matt Larson"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "media/screenshot-2.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
+      }
+    },
+    {
+      "path": "media/screenshot-1.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
+      }
+    },
+    {
+      "path": "media/screenshot-0.webp",
+      "crop": {
+        "x": 0,
+        "y": 0.0002656748140275611,
+        "w": 1,
+        "h": 0.9994686503719449
       }
     }
   ]

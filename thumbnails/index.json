@@ -44,6 +44,24 @@
       "width": 256,
       "height": 256
     },
+    "media/screenshot-0.webp": {
+      "inputHash": "9518c8addbdbefd1",
+      "file": "thumbnails/media/screenshot-0.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-1.webp": {
+      "inputHash": "7c30b21d5d635ff4",
+      "file": "thumbnails/media/screenshot-1.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-2.webp": {
+      "inputHash": "b5a354f6d933791f",
+      "file": "thumbnails/media/screenshot-2.webp.webp",
+      "width": 256,
+      "height": 144
+    },
     "models/go-board.web.glb": {
       "inputHash": "fdef0f52cec13c07",
       "file": "thumbnails/models/go-board.web.glb.webp",
