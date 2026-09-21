@@ -1,8 +1,8 @@
-# Go The Game
+# Go
 
-**Go The Game** is an Abstract Strategy game for [DiceyTable](https://diceytable.com) — a free physics tabletop you play in your browser with friends, with no download required.
+**Go** is an Abstract Strategy game for [DiceyTable](https://diceytable.com) — a free physics tabletop you play in your browser with friends, with no download required.
 
-**[Play Go The Game on DiceyTable](https://diceytable.com/games/gothegame)**
+**[Play Go on DiceyTable](https://diceytable.com/games/gothegame)**
 
 ---
 
