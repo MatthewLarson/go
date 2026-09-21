@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "go-the-game",
   "name": "Go",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -42,7 +42,7 @@
   ],
   "slug": "gothegame",
   "summary": "The timeless strategy game of Go",
-  "description": "The timeless strategy game of Go",
+  "description": "**Play Go online** and experience one of the world’s oldest and most enduring strategy games. Also known as **Weiqi** in China and **Baduk** in Korea, Go is a two-player board game built around a beautifully simple idea: place black and white stones on the board to surround territory and capture your opponent’s stones. The rules are easy to learn, but every match offers an incredible amount of tactical and strategic depth.\n\nWhether you’re learning **how to play Go**, practicing against an opponent, or looking for a challenging **online Go game**, every move matters. Build strong groups, protect their liberties, attack weak positions, and compete to control more territory than your opponent. With countless possible board positions, no two games of Go ever feel quite the same.\n\nJump into a game and **play Go online** from your browser—no physical board required. It’s perfect for beginners discovering this classic strategy game and experienced players looking to sharpen their planning and positional skills. **Place a stone, shape the board, and see how deep Go can go.**",
   "category": "abstract-strategy",
   "players": {
     "min": 2,
@@ -276,5 +276,13 @@
     "media/screenshot-0.webp",
     "media/screenshot-1.webp",
     "media/screenshot-2.webp"
+  ],
+  "rules": [
+    {
+      "kind": "link",
+      "id": "link",
+      "title": "Rules",
+      "url": "https://en.wikipedia.org/wiki/Rules_of_Go"
+    }
   ]
 }
