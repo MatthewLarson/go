@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "source": {
+    "presetId": "go-piece-white",
+    "presetKind": "model",
+    "type": "preset"
+  },
+  "sourceHash": "d930082ae7ad6105c8a8e91bd09462e4eff516fa04b8625d4ae36c30e62a87ad",
+  "linkedAt": "2026-09-21T04:00:33.998Z",
+  "syncedAt": "2026-09-21T04:00:33.998Z",
+  "bytes": [
+    {
+      "path": "originals/go-piece-white.glb",
+      "sha256": "121b0f822f16ebb2b6db9f5e6d68b69df70c08e901a19b368b72c61273c3fcb5",
+      "sourceDigest": "b4ffc4261280454dd2d5ecb7083410cd5687b941b408711b8e27c7e6e77de144",
+      "sourceRef": "/assets/standard-objects/go/go-piece-white/model.glb"
+    }
+  ],
+  "base": {
+    "angularDamping": 0.35,
+    "collider": {
+      "entries": [
+        {
+          "id": "collider-1",
+          "name": "GoStoneCollider",
+          "shape": "convexHull",
+          "simplifyRatio": 0.35,
+          "source": "render"
+        }
+      ],
+      "mode": "custom"
+    },
+    "collisionShape": "convexHull",
+    "color": "#f6f1e2",
+    "friction": 0.55,
+    "materialSlots": {
+      "go-piece-white_mat": "mat-3e3c866d-3fd4-47ed-805e-dc78867ef232"
+    },
+    "metadata": {
+      "standardPresetFamily": "pieces",
+      "standardPresetVariant": "go-piece-white",
+      "tokenShape": "cylinder"
+    },
+    "restitution": 0.16,
+    "scale": {
+      "x": 0.0728,
+      "y": 0.0302,
+      "z": 0.0728
+    },
+    "spawnHeight": 0.45
+  },
+  "overrides": {}
+}

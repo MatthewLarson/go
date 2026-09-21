@@ -1,0 +1,33 @@
+{
+  "color": "#f6f1e2",
+  "scale": {
+    "x": 0.0728,
+    "y": 0.0302,
+    "z": 0.0728
+  },
+  "spawnHeight": 0.45,
+  "metadata": {
+    "standardPresetFamily": "pieces",
+    "standardPresetVariant": "go-piece-white",
+    "tokenShape": "cylinder"
+  },
+  "materialSlots": {
+    "go-piece-white_mat": "mat-3e3c866d-3fd4-47ed-805e-dc78867ef232"
+  },
+  "friction": 0.55,
+  "restitution": 0.16,
+  "angularDamping": 0.35,
+  "collisionShape": "convexHull",
+  "collider": {
+    "mode": "custom",
+    "entries": [
+      {
+        "id": "collider-1",
+        "name": "GoStoneCollider",
+        "shape": "convexHull",
+        "source": "render",
+        "simplifyRatio": 0.35
+      }
+    ]
+  }
+}

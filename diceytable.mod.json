@@ -1,25 +1,24 @@
 {
   "schemaVersion": "1.0",
   "id": "go-the-game",
-  "name": "Go",
-  "version": "0.1.1",
+  "name": "Go The Game",
+  "version": "0.1.4",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
     "script": "script.js"
   },
   "assets": [
-    "media/cover-thumb.webp",
-    "media/cover.webp",
-    "media/screenshot-0.webp",
-    "media/screenshot-1.webp",
-    "media/screenshot-2.webp",
     "models/go-board-textured.web.glb",
     "models/go-board-textured.web.meta.json",
-    "textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp",
-    "textures/go-board-web/image-3-f2a1f610.webp",
-    "textures/go-board-web/image-4-087fb3a2.webp",
-    "textures/go-board-web/image-5-9a32e9b6.webp"
+    "textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp",
+    "textures/go-board-textured-web/goban-gen-normal-web-f8cd9daa.webp",
+    "textures/go-piece-black-basecolor-4f7c1071.png",
+    "textures/go-piece-black-mr-1d91a801.png",
+    "textures/go-piece-black-normal-ea5a9c22.png",
+    "textures/go-piece-white-basecolor-16d5e6e5.png",
+    "textures/go-piece-white-mr-4ac7cd1d.png",
+    "textures/go-piece-white-normal-7a1e8b60.png"
   ],
   "compatibility": {
     "engine": ">=0.1 <1.0"
@@ -51,96 +50,191 @@
   "coverImage": "media/cover.webp",
   "credits": [
     {
-      "id": "credit-bc054908-ffea-455d-a947-5cbf46c9247b",
+      "id": "credit-d1c57fe4-533f-4af5-b8af-918a7d19c813",
       "paths": [
+        "media/screenshot-2.webp",
+        "media/screenshot-1.webp",
+        "media/screenshot-0.webp",
         "media/cover-thumb.webp",
         "media/cover.webp"
       ],
       "origin": "own-work",
       "title": "Go Images",
-      "recordedAt": "2026-09-20T20:20:33.379Z",
+      "recordedAt": "2026-09-21T04:00:18.858Z",
       "attestation": {
         "termsVersion": "2026-09-07.1",
-        "acceptedAt": "2026-09-20T20:20:33.379Z",
+        "acceptedAt": "2026-09-21T04:00:18.858Z",
         "signedName": "Matt Larson"
       }
     },
     {
-      "id": "credit-ba78ef9e-93ca-4a6e-8a8e-c1f56e17f3f1",
+      "id": "link-d768e1d4",
       "paths": [
-        "textures/go-board-web/image-3-f2a1f610.webp",
-        "textures/go-board-web/image-4-087fb3a2.webp",
-        "textures/go-board-web/image-5-9a32e9b6.webp"
-      ],
-      "origin": "third-party",
-      "title": "Go Ghess Board-4K-MaterialTest",
-      "creator": "chiwei",
-      "creatorUrl": "https://sketchfab.com/chiwei2333",
-      "sourceUrl": "https://sketchfab.com/3d-models/go-ghess-board-4k-materialtest-e7c17918e0314d7f8dfd385a71141e27",
-      "licenseName": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "recordedAt": "2026-09-20T20:22:22.969Z",
-      "attestation": {
-        "termsVersion": "2026-09-07.1",
-        "acceptedAt": "2026-09-20T20:22:22.969Z",
-        "signedName": "Matt Larson"
-      }
-    },
-    {
-      "id": "credit-8352a291-110d-44e2-9cdf-ff3ee05f3e43",
-      "paths": [
-        "media/screenshot-0.webp"
+        "links/materials/mat-f1de0b6d-6b74-445e-9650-5ca255073578.link.json"
       ],
       "origin": "own-work",
-      "title": "Go Images",
-      "recordedAt": "2026-09-20T20:25:46.122Z",
-      "attestation": {
-        "termsVersion": "2026-09-07.1",
-        "acceptedAt": "2026-09-20T20:25:46.122Z",
-        "signedName": "Matt Larson"
-      }
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T03:46:59.499Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "material",
+        "presetId": "builtin:model/go-piece-black/go-piece-black"
+      },
+      "locked": true
     },
     {
-      "id": "credit-9faf1c6c-bc99-45fd-99fc-e26bc1c70d37",
+      "id": "link-22375c8d",
       "paths": [
-        "media/screenshot-1.webp"
+        "textures/go-piece-black-basecolor-4f7c1071.png"
       ],
       "origin": "own-work",
-      "title": "Go Images",
-      "recordedAt": "2026-09-20T20:26:02.344Z",
-      "attestation": {
-        "termsVersion": "2026-09-07.1",
-        "acceptedAt": "2026-09-20T20:26:02.344Z",
-        "signedName": "Matt Larson"
-      }
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T03:46:59.499Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "texture",
+        "presetId": "builtin-tex:model/go-piece-black/diffuse"
+      },
+      "locked": true
     },
     {
-      "id": "credit-d1c57fe4-533f-4af5-b8af-918a7d19c813",
+      "id": "link-841faeb4",
       "paths": [
-        "media/screenshot-2.webp"
+        "textures/go-piece-black-mr-1d91a801.png"
       ],
       "origin": "own-work",
-      "title": "Go Images",
-      "recordedAt": "2026-09-20T20:26:22.379Z",
-      "attestation": {
-        "termsVersion": "2026-09-07.1",
-        "acceptedAt": "2026-09-20T20:26:22.379Z",
-        "signedName": "Matt Larson"
-      }
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T03:46:59.499Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "texture",
+        "presetId": "builtin-tex:model/go-piece-black/roughness"
+      },
+      "locked": true
     },
     {
-      "id": "credit-73e72cc6-f0e2-4bd3-9422-15193829c03a",
+      "id": "link-bc59dce8",
+      "paths": [
+        "textures/go-piece-black-normal-ea5a9c22.png"
+      ],
+      "origin": "own-work",
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T03:46:59.499Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "texture",
+        "presetId": "builtin-tex:model/go-piece-black/normal"
+      },
+      "locked": true
+    },
+    {
+      "id": "link-50b7375a",
+      "paths": [
+        "originals/go-piece-white.glb",
+        "originals/go-piece-white.meta.json"
+      ],
+      "origin": "own-work",
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T04:00:33.998Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "model",
+        "presetId": "go-piece-white"
+      },
+      "locked": true
+    },
+    {
+      "id": "link-7da40422",
+      "paths": [
+        "links/materials/mat-3e3c866d-3fd4-47ed-805e-dc78867ef232.link.json"
+      ],
+      "origin": "own-work",
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T04:00:33.998Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "material",
+        "presetId": "builtin:model/go-piece-white/go-piece-white"
+      },
+      "locked": true
+    },
+    {
+      "id": "link-014440b1",
+      "paths": [
+        "textures/go-piece-white-basecolor-16d5e6e5.png"
+      ],
+      "origin": "own-work",
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T04:00:33.998Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "texture",
+        "presetId": "builtin-tex:model/go-piece-white/diffuse"
+      },
+      "locked": true
+    },
+    {
+      "id": "link-6d654bfa",
+      "paths": [
+        "textures/go-piece-white-mr-4ac7cd1d.png"
+      ],
+      "origin": "own-work",
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T04:00:33.998Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "texture",
+        "presetId": "builtin-tex:model/go-piece-white/roughness"
+      },
+      "locked": true
+    },
+    {
+      "id": "link-2e786fca",
+      "paths": [
+        "textures/go-piece-white-normal-7a1e8b60.png"
+      ],
+      "origin": "own-work",
+      "title": "DiceyTable procedural standard objects",
+      "creator": "DiceyTable",
+      "notes": "Geometry and textures generated in-repo. Checkers and go stones sample Poly Haven CC0 plates (oak_veneer_01, white_plaster_02, seaside_rock), which carry no obligation.",
+      "recordedAt": "2026-09-21T04:00:33.998Z",
+      "source": {
+        "type": "preset",
+        "presetKind": "texture",
+        "presetId": "builtin-tex:model/go-piece-white/normal"
+      },
+      "locked": true
+    },
+    {
+      "id": "credit-ddce69d3-7002-4e07-aeb3-37cd8757ecfc",
       "paths": [
         "models/go-board-textured.web.glb",
         "models/go-board-textured.web.meta.json",
-        "textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp"
+        "textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp",
+        "textures/go-board-textured-web/goban-gen-normal-web-f8cd9daa.webp"
       ],
       "origin": "own-work",
       "title": "Go Board",
-      "recordedAt": "2026-09-21T00:23:45.665Z",
+      "recordedAt": "2026-09-21T04:14:31.868Z",
       "attestation": {
         "termsVersion": "2026-09-07.1",
-        "acceptedAt": "2026-09-21T00:23:45.665Z",
+        "acceptedAt": "2026-09-21T04:14:31.868Z",
         "signedName": "Matt Larson"
       }
     }
@@ -173,5 +267,12 @@
         "h": 0.9994686503719449
       }
     }
+  ],
+  "excludedAssets": [
+    "media/cover-thumb.webp",
+    "media/cover.webp",
+    "media/screenshot-0.webp",
+    "media/screenshot-1.webp",
+    "media/screenshot-2.webp"
   ]
 }

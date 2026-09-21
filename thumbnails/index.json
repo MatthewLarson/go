@@ -2,33 +2,21 @@
   "version": 1,
   "rendererVersion": 1,
   "entries": {
-    "@materials/mat-58c537f8-e847-4d58-8776-cf72c35ad7f8": {
-      "inputHash": "c818ea7784b735fd",
-      "file": "thumbnails/@materials/mat-58c537f8-e847-4d58-8776-cf72c35ad7f8.webp",
+    "@materials/mat-246e58a4-a309-4023-816b-59d377311531": {
+      "inputHash": "453896fa0e07f668",
+      "file": "thumbnails/@materials/mat-246e58a4-a309-4023-816b-59d377311531.webp",
       "width": 256,
       "height": 256
     },
-    "@materials/mat-ceiling": {
-      "inputHash": "220ee3bdf8d37625",
-      "file": "thumbnails/@materials/mat-ceiling.webp",
+    "@materials/mat-3e3c866d-3fd4-47ed-805e-dc78867ef232": {
+      "inputHash": "e2a1664ef23b0f80",
+      "file": "thumbnails/@materials/mat-3e3c866d-3fd4-47ed-805e-dc78867ef232.webp",
       "width": 256,
       "height": 256
     },
-    "@materials/mat-default": {
-      "inputHash": "eccf03f485688ce9",
-      "file": "thumbnails/@materials/mat-default.webp",
-      "width": 256,
-      "height": 256
-    },
-    "@materials/mat-floor": {
-      "inputHash": "4faeb6a28ac0884c",
-      "file": "thumbnails/@materials/mat-floor.webp",
-      "width": 256,
-      "height": 256
-    },
-    "@materials/mat-wall": {
-      "inputHash": "8b1c33f064be0752",
-      "file": "thumbnails/@materials/mat-wall.webp",
+    "@materials/mat-f1de0b6d-6b74-445e-9650-5ca255073578": {
+      "inputHash": "203981aee5c2bb39",
+      "file": "thumbnails/@materials/mat-f1de0b6d-6b74-445e-9650-5ca255073578.webp",
       "width": 256,
       "height": 256
     },
@@ -62,27 +50,69 @@
       "width": 256,
       "height": 144
     },
-    "textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp": {
-      "inputHash": "69148b51927f9923",
-      "file": "thumbnails/textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp.webp",
+    "models/go-board-textured.web.glb": {
+      "inputHash": "6e7aa4bb25cee9b1",
+      "file": "thumbnails/models/go-board-textured.web.glb.webp",
       "width": 256,
       "height": 256
     },
-    "textures/go-board-web/image-3-f2a1f610.webp": {
-      "inputHash": "3a29ad36055bc192",
-      "file": "thumbnails/textures/go-board-web/image-3-f2a1f610.webp.webp",
+    "originals/go-board-textured.web.glb": {
+      "inputHash": "abe9cad54282ed62",
+      "file": "thumbnails/originals/go-board-textured.web.glb.webp",
       "width": 256,
       "height": 256
     },
-    "textures/go-board-web/image-4-087fb3a2.webp": {
-      "inputHash": "f39f45ca43b3fbf5",
-      "file": "thumbnails/textures/go-board-web/image-4-087fb3a2.webp.webp",
+    "originals/go-piece-white.glb": {
+      "inputHash": "a09c3eb6fef4f36c",
+      "file": "thumbnails/originals/go-piece-white.glb.webp",
       "width": 256,
       "height": 256
     },
-    "textures/go-board-web/image-5-9a32e9b6.webp": {
-      "inputHash": "40eedb903c938e31",
-      "file": "thumbnails/textures/go-board-web/image-5-9a32e9b6.webp.webp",
+    "textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp": {
+      "inputHash": "f9e71c6c6cc63a8e",
+      "file": "thumbnails/textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-textured-web/goban-gen-normal-web-f8cd9daa.webp": {
+      "inputHash": "ba72a65d92075b87",
+      "file": "thumbnails/textures/go-board-textured-web/goban-gen-normal-web-f8cd9daa.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-piece-black-basecolor-4f7c1071.png": {
+      "inputHash": "d1c241d0b880ab31",
+      "file": "thumbnails/textures/go-piece-black-basecolor-4f7c1071.png.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-piece-black-mr-1d91a801.png": {
+      "inputHash": "2067258c7e9b09fd",
+      "file": "thumbnails/textures/go-piece-black-mr-1d91a801.png.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-piece-black-normal-ea5a9c22.png": {
+      "inputHash": "86fc7ef2f517e5b9",
+      "file": "thumbnails/textures/go-piece-black-normal-ea5a9c22.png.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-piece-white-basecolor-16d5e6e5.png": {
+      "inputHash": "cf287eaa2c0c8100",
+      "file": "thumbnails/textures/go-piece-white-basecolor-16d5e6e5.png.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-piece-white-mr-4ac7cd1d.png": {
+      "inputHash": "0587ac5bf8bb75fa",
+      "file": "thumbnails/textures/go-piece-white-mr-4ac7cd1d.png.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-piece-white-normal-7a1e8b60.png": {
+      "inputHash": "7815c47c1f1a63e1",
+      "file": "thumbnails/textures/go-piece-white-normal-7a1e8b60.png.webp",
       "width": 256,
       "height": 256
     }

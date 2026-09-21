@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "source": {
+    "presetId": "builtin-tex:model/go-piece-black/diffuse",
+    "presetKind": "texture",
+    "type": "preset"
+  },
+  "sourceHash": "99790516fcb04136d96f04e045ac96cc1583fa90e321126706dd0e310757d252",
+  "linkedAt": "2026-09-21T03:46:59.499Z",
+  "syncedAt": "2026-09-21T03:46:59.499Z",
+  "bytes": [
+    {
+      "path": "textures/go-piece-black-basecolor-4f7c1071.png",
+      "sha256": "4f7c107105bc0b9f3bef66a4d7e9c37c5c0cf25470fdc980c61c1951525cfb01",
+      "sourceDigest": "4f7c107105bc0b9f3bef66a4d7e9c37c5c0cf25470fdc980c61c1951525cfb01",
+      "sourceRef": "/assets/standard-objects/go/go-piece-black/go-piece-black-basecolor-4f7c1071.png"
+    }
+  ],
+  "base": {
+    "addressU": "repeat",
+    "addressV": "repeat",
+    "anisotropy": 1,
+    "filtering": "linear",
+    "mipmaps": true,
+    "rgbm": false,
+    "srgb": true
+  },
+  "overrides": {}
+}

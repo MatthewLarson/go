@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "source": {
+    "presetId": "builtin-tex:model/go-piece-black/roughness",
+    "presetKind": "texture",
+    "type": "preset"
+  },
+  "sourceHash": "470aae477325e1b52c45a25270f10077629d25b0a169756d69c55865b70ba4b2",
+  "linkedAt": "2026-09-21T03:46:59.499Z",
+  "syncedAt": "2026-09-21T03:46:59.499Z",
+  "bytes": [
+    {
+      "path": "textures/go-piece-black-mr-1d91a801.png",
+      "sha256": "1d91a801725afb47d38dda91b0a6d201c79c4f1ff3c7afbcfd501d21893805ed",
+      "sourceDigest": "1d91a801725afb47d38dda91b0a6d201c79c4f1ff3c7afbcfd501d21893805ed",
+      "sourceRef": "/assets/standard-objects/go/go-piece-black/go-piece-black-mr-1d91a801.png"
+    }
+  ],
+  "base": {
+    "addressU": "repeat",
+    "addressV": "repeat",
+    "anisotropy": 1,
+    "filtering": "linear",
+    "mipmaps": true,
+    "rgbm": false,
+    "srgb": true
+  },
+  "overrides": {}
+}
