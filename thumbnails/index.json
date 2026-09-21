@@ -68,6 +68,12 @@
       "width": 256,
       "height": 256
     },
+    "textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp": {
+      "inputHash": "69148b51927f9923",
+      "file": "thumbnails/textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp.webp",
+      "width": 256,
+      "height": 256
+    },
     "textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp": {
       "inputHash": "f9e71c6c6cc63a8e",
       "file": "thumbnails/textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp.webp",
