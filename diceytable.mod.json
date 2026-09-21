@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "id": "go",
-  "name": "Go The Game",
+  "id": "go-the-game",
+  "name": "Go",
   "version": "0.1.0",
   "type": "game-pack",
   "entry": {
