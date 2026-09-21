@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "go-the-game",
   "name": "Go",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -11,6 +11,7 @@
   "assets": [
     "models/go-board-textured.web.glb",
     "models/go-board-textured.web.meta.json",
+    "textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp",
     "textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp",
     "textures/go-board-textured-web/goban-gen-normal-web-f8cd9daa.webp",
     "textures/go-piece-black-basecolor-4f7c1071.png",
@@ -227,14 +228,15 @@
         "models/go-board-textured.web.glb",
         "models/go-board-textured.web.meta.json",
         "textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp",
-        "textures/go-board-textured-web/goban-gen-normal-web-f8cd9daa.webp"
+        "textures/go-board-textured-web/goban-gen-normal-web-f8cd9daa.webp",
+        "textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp"
       ],
       "origin": "own-work",
       "title": "Go Board",
-      "recordedAt": "2026-09-21T04:14:31.868Z",
+      "recordedAt": "2026-09-21T16:55:11.465Z",
       "attestation": {
         "termsVersion": "2026-09-07.1",
-        "acceptedAt": "2026-09-21T04:14:31.868Z",
+        "acceptedAt": "2026-09-21T16:55:11.465Z",
         "signedName": "Matt Larson"
       }
     }
