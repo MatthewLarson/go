@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "source": {
+    "presetId": "builtin-tex:model/go-piece-white/roughness",
+    "presetKind": "texture",
+    "type": "preset"
+  },
+  "sourceHash": "d9565e16b14bb47f85ee4f7d7d76d37c760239423cbeae0edd51592f7e2f4e86",
+  "linkedAt": "2026-09-21T04:00:33.998Z",
+  "syncedAt": "2026-09-21T04:00:33.998Z",
+  "bytes": [
+    {
+      "path": "textures/go-piece-white-mr-4ac7cd1d.png",
+      "sha256": "4ac7cd1df14b2d6b9b9a5af6850595216775e891bdf46b1b5843060a49fde6f1",
+      "sourceDigest": "4ac7cd1df14b2d6b9b9a5af6850595216775e891bdf46b1b5843060a49fde6f1",
+      "sourceRef": "/assets/standard-objects/go/go-piece-white/go-piece-white-mr-4ac7cd1d.png"
+    }
+  ],
+  "base": {
+    "addressU": "repeat",
+    "addressV": "repeat",
+    "anisotropy": 1,
+    "filtering": "linear",
+    "mipmaps": true,
+    "rgbm": false,
+    "srgb": true
+  },
+  "overrides": {}
+}

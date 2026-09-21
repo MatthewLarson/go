@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "source": {
+    "presetId": "builtin-tex:model/go-piece-black/normal",
+    "presetKind": "texture",
+    "type": "preset"
+  },
+  "sourceHash": "805c39e2c16dc15a0a241c1eaac81a4bb9137e9051710dfdfed58c718b399e51",
+  "linkedAt": "2026-09-21T03:46:59.499Z",
+  "syncedAt": "2026-09-21T03:46:59.499Z",
+  "bytes": [
+    {
+      "path": "textures/go-piece-black-normal-ea5a9c22.png",
+      "sha256": "ea5a9c228d8e30d4c97e4ac26c6b17e20fcea8a7cb7d3552cc94748dfc902eca",
+      "sourceDigest": "ea5a9c228d8e30d4c97e4ac26c6b17e20fcea8a7cb7d3552cc94748dfc902eca",
+      "sourceRef": "/assets/standard-objects/go/go-piece-black/go-piece-black-normal-ea5a9c22.png"
+    }
+  ],
+  "base": {
+    "addressU": "repeat",
+    "addressV": "repeat",
+    "anisotropy": 1,
+    "filtering": "linear",
+    "mipmaps": true,
+    "rgbm": false,
+    "srgb": true
+  },
+  "overrides": {}
+}

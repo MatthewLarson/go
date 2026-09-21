@@ -1,0 +1,27 @@
+{
+  "kind": "board",
+  "locked": true,
+  "materialSlots": {
+    "Goban_Export": "mat-246e58a4-a309-4023-816b-59d377311531"
+  },
+  "lightmapStatic": false,
+  "friction": 0.6,
+  "restitution": 0.25,
+  "collider": {
+    "mode": "custom",
+    "entries": [
+      {
+        "id": "collider-1",
+        "name": "GoCollider",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "shape": "convexHull",
+        "source": "render",
+        "simplifyRatio": 0.75
+      }
+    ]
+  }
+}
