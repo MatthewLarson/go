@@ -62,9 +62,9 @@
       "width": 256,
       "height": 144
     },
-    "models/go-board.web.glb": {
-      "inputHash": "fdef0f52cec13c07",
-      "file": "thumbnails/models/go-board.web.glb.webp",
+    "textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp": {
+      "inputHash": "69148b51927f9923",
+      "file": "thumbnails/textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp.webp",
       "width": 256,
       "height": 256
     },
