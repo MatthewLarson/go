@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "go-the-game",
   "name": "Go",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -284,5 +284,6 @@
       "title": "Rules",
       "url": "https://en.wikipedia.org/wiki/Rules_of_Go"
     }
-  ]
+  ],
+  "diceEnabled": false
 }
