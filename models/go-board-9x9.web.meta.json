@@ -1,0 +1,10 @@
+{
+  "kind": "board",
+  "locked": true,
+  "materialSlots": {
+    "Goban9": "mat-154ef5cc-7a32-47fc-afbb-a8ce5acefa4e"
+  },
+  "lightmapStatic": true,
+  "friction": 0.6,
+  "restitution": 0.25
+}

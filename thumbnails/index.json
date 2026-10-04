@@ -2,6 +2,18 @@
   "version": 1,
   "rendererVersion": 1,
   "entries": {
+    "@materials/mat-04048e96-08ec-4b5c-a937-b72a7189f02d": {
+      "inputHash": "dc40fc86ad8acf28",
+      "file": "thumbnails/@materials/mat-04048e96-08ec-4b5c-a937-b72a7189f02d.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-154ef5cc-7a32-47fc-afbb-a8ce5acefa4e": {
+      "inputHash": "dc40fc86ad8acf28",
+      "file": "thumbnails/@materials/mat-154ef5cc-7a32-47fc-afbb-a8ce5acefa4e.webp",
+      "width": 256,
+      "height": 256
+    },
     "@materials/mat-246e58a4-a309-4023-816b-59d377311531": {
       "inputHash": "453896fa0e07f668",
       "file": "thumbnails/@materials/mat-246e58a4-a309-4023-816b-59d377311531.webp",
@@ -14,9 +26,33 @@
       "width": 256,
       "height": 256
     },
+    "@materials/mat-7e879e7a-05d0-48a4-9668-26a0625c19a5": {
+      "inputHash": "e9fb118858c42fda",
+      "file": "thumbnails/@materials/mat-7e879e7a-05d0-48a4-9668-26a0625c19a5.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-9ec8e01a-fe40-45a0-b768-2f86247d044d": {
+      "inputHash": "23aba32288e7bb3e",
+      "file": "thumbnails/@materials/mat-9ec8e01a-fe40-45a0-b768-2f86247d044d.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-e91c4df1-a10d-46ab-8ff2-06b4b462a023": {
+      "inputHash": "e9fb118858c42fda",
+      "file": "thumbnails/@materials/mat-e91c4df1-a10d-46ab-8ff2-06b4b462a023.webp",
+      "width": 256,
+      "height": 256
+    },
     "@materials/mat-f1de0b6d-6b74-445e-9650-5ca255073578": {
       "inputHash": "203981aee5c2bb39",
       "file": "thumbnails/@materials/mat-f1de0b6d-6b74-445e-9650-5ca255073578.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@prefabs/go-web": {
+      "inputHash": "29249134684287ba",
+      "file": "thumbnails/@prefabs/go-web.webp",
       "width": 256,
       "height": 256
     },
@@ -50,9 +86,33 @@
       "width": 256,
       "height": 144
     },
+    "models/go-board-13x13.web.glb": {
+      "inputHash": "aa85597fdf5090cb",
+      "file": "thumbnails/models/go-board-13x13.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/go-board-9x9.web.glb": {
+      "inputHash": "8901c36224e236ea",
+      "file": "thumbnails/models/go-board-9x9.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
     "models/go-board-textured.web.glb": {
       "inputHash": "6e7aa4bb25cee9b1",
       "file": "thumbnails/models/go-board-textured.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/go-board-13x13.web.glb": {
+      "inputHash": "661190c872a8af4b",
+      "file": "thumbnails/originals/go-board-13x13.web.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/go-board-9x9.web.glb": {
+      "inputHash": "917fc9759d46fcc0",
+      "file": "thumbnails/originals/go-board-9x9.web.glb.webp",
       "width": 256,
       "height": 256
     },
@@ -65,6 +125,42 @@
     "originals/go-piece-white.glb": {
       "inputHash": "a09c3eb6fef4f36c",
       "file": "thumbnails/originals/go-piece-white.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-13x13-web/goban13-basecolor-a06d2845.webp": {
+      "inputHash": "ef4e981c5757d211",
+      "file": "thumbnails/textures/go-board-13x13-web/goban13-basecolor-a06d2845.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-13x13-web/goban13-mr-363d6aa8.webp": {
+      "inputHash": "e3a107eae7f5978a",
+      "file": "thumbnails/textures/go-board-13x13-web/goban13-mr-363d6aa8.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-13x13-web/goban13-normal-bc39bc19.webp": {
+      "inputHash": "fc96036db3bc3c36",
+      "file": "thumbnails/textures/go-board-13x13-web/goban13-normal-bc39bc19.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-9x9-web/goban9-basecolor-b9691c79.webp": {
+      "inputHash": "0fff7249fc2a236f",
+      "file": "thumbnails/textures/go-board-9x9-web/goban9-basecolor-b9691c79.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-9x9-web/goban9-mr-05ec9863.webp": {
+      "inputHash": "264158d2bd0ba87b",
+      "file": "thumbnails/textures/go-board-9x9-web/goban9-mr-05ec9863.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/go-board-9x9-web/goban9-normal-7dea0040.webp": {
+      "inputHash": "3acca04d71a3ce32",
+      "file": "thumbnails/textures/go-board-9x9-web/goban9-normal-7dea0040.webp.webp",
       "width": 256,
       "height": 256
     },
