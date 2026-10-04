@@ -2,15 +2,25 @@
   "schemaVersion": "1.0",
   "id": "go-the-game",
   "name": "Go",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
     "script": "script.js"
   },
   "assets": [
+    "models/go-board-13x13.web.glb",
+    "models/go-board-13x13.web.meta.json",
+    "models/go-board-9x9.web.glb",
+    "models/go-board-9x9.web.meta.json",
     "models/go-board-textured.web.glb",
     "models/go-board-textured.web.meta.json",
+    "textures/go-board-13x13-web/goban13-basecolor-a06d2845.webp",
+    "textures/go-board-13x13-web/goban13-mr-363d6aa8.webp",
+    "textures/go-board-13x13-web/goban13-normal-bc39bc19.webp",
+    "textures/go-board-9x9-web/goban9-basecolor-b9691c79.webp",
+    "textures/go-board-9x9-web/goban9-mr-05ec9863.webp",
+    "textures/go-board-9x9-web/goban9-normal-7dea0040.webp",
     "textures/go-board-textured-web/goban-bake-basecolor-2fcac1a4.webp",
     "textures/go-board-textured-web/goban-bake-basecolor-web-3c48172f.webp",
     "textures/go-board-textured-web/goban-gen-normal-web-f8cd9daa.webp",
@@ -239,6 +249,42 @@
         "acceptedAt": "2026-09-21T16:55:11.465Z",
         "signedName": "Matt Larson"
       }
+    },
+    {
+      "id": "credit-7d9866c7-1083-451d-b024-8c9291ee05cf",
+      "paths": [
+        "models/go-board-13x13.web.glb",
+        "models/go-board-13x13.web.meta.json",
+        "textures/go-board-13x13-web/goban13-basecolor-a06d2845.webp",
+        "textures/go-board-13x13-web/goban13-mr-363d6aa8.webp",
+        "textures/go-board-13x13-web/goban13-normal-bc39bc19.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Board (13x13)",
+      "recordedAt": "2026-10-04T02:52:59.196Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-10-04T02:52:59.196Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-a51d0216-c6f3-4d2c-9922-65ecb63d155f",
+      "paths": [
+        "models/go-board-9x9.web.glb",
+        "models/go-board-9x9.web.meta.json",
+        "textures/go-board-9x9-web/goban9-basecolor-b9691c79.webp",
+        "textures/go-board-9x9-web/goban9-mr-05ec9863.webp",
+        "textures/go-board-9x9-web/goban9-normal-7dea0040.webp"
+      ],
+      "origin": "own-work",
+      "title": "Go Board (9x9)",
+      "recordedAt": "2026-10-04T03:01:52.077Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-10-04T03:01:52.077Z",
+        "signedName": "Matt Larson"
+      }
     }
   ],
   "screenshots": [
@@ -285,5 +331,22 @@
       "url": "https://en.wikipedia.org/wiki/Rules_of_Go"
     }
   ],
-  "diceEnabled": false
+  "diceEnabled": false,
+  "variants": [
+    {
+      "id": "standard",
+      "name": "Large Board (19x19)",
+      "description": "The standard, but also the largest and most complicated game of Go."
+    },
+    {
+      "id": "new-variant",
+      "name": "Medium Board (13x13)",
+      "description": "A medium length and difficulty game of Go."
+    },
+    {
+      "id": "small-board-9x9",
+      "name": "Small Board (9x9)",
+      "description": "Easiest and fastest version of Go"
+    }
+  ]
 }
