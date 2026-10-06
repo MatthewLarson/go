@@ -2,13 +2,16 @@
   "schemaVersion": "1.0",
   "id": "go-the-game",
   "name": "Go",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
     "script": "script.js"
   },
   "assets": [
+    "ai/katago-13x13.onnx",
+    "ai/katago-19x19.onnx",
+    "ai/katago-9x9.onnx",
     "models/go-board-13x13.web.glb",
     "models/go-board-13x13.web.meta.json",
     "models/go-board-9x9.web.glb",
@@ -285,6 +288,38 @@
         "acceptedAt": "2026-10-04T03:01:52.077Z",
         "signedName": "Matt Larson"
       }
+    },
+    {
+      "id": "credit-fde801c5-9e80-4b8d-878b-500aa2ce6493",
+      "paths": [
+        "ai/katago-9x9.onnx",
+        "ai/katago-13x13.onnx",
+        "ai/katago-19x19.onnx"
+      ],
+      "origin": "third-party",
+      "title": "KataGo g170 neural network (b10c128)",
+      "creator": "David J Wu (lightvector) and the KataGo contributors",
+      "creatorUrl": "https://github.com/lightvector/KataGo",
+      "sourceUrl": "https://katagoarchive.org/g170/neuralnets/index.html",
+      "licenseName": "CC0 1.0 (Public Domain)",
+      "licenseUrl": "https://katagotraining.org/network_license/",
+      "recordedAt": "2026-10-06T04:44:44.442Z",
+      "aiAttestation": {
+        "termsVersion": "2026-09-07.1",
+        "agentSessionId": "6509e4da-a93e-4208-b5a8-546ad42f87ab",
+        "client": "claude-code 2.1.287",
+        "attestedAt": "2026-10-06T04:44:44.442Z",
+        "review": {
+          "reviewedAt": "2026-10-06T04:47:15.316Z",
+          "signedName": "Matt Larson",
+          "termsVersion": "2026-09-07.1"
+        }
+      },
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-10-06T04:47:15.316Z",
+        "signedName": "Matt Larson"
+      }
     }
   ],
   "screenshots": [
@@ -347,6 +382,253 @@
       "id": "small-board-9x9",
       "name": "Small Board (9x9)",
       "description": "Easiest and fastest version of Go"
+    },
+    {
+      "id": "small-board-9x9-scripted",
+      "name": "Small Board (9x9) - Scripted",
+      "description": "Fully scripted version of the small (9x9) version of Go.",
+      "rulesEnforced": true,
+      "ranking": {
+        "draws": true,
+        "requireKernel": true
+      }
+    },
+    {
+      "id": "medium-board-13x13-scripted",
+      "name": "Medium Board (13x13) - Scripted",
+      "description": "Fully scripted version of the medium sized (13x13) version of Go",
+      "rulesEnforced": true,
+      "ranking": {
+        "draws": true,
+        "requireKernel": true
+      }
+    },
+    {
+      "id": "large-board-19x19-scripted",
+      "name": "Large Board (19x19) - Scripted",
+      "description": "Fully scripted version of the standard (19x19) version of Go",
+      "rulesEnforced": true,
+      "ranking": {
+        "draws": true,
+        "requireKernel": true
+      }
+    }
+  ],
+  "bots": [
+    {
+      "id": "search",
+      "label": "Simple search",
+      "kind": "scripted",
+      "handler": "search",
+      "seats": {
+        "max": 2
+      },
+      "description": "A light tree search that counts territory. No AI model, so it runs on any device. Weak: good for a first game."
+    },
+    {
+      "id": "katago",
+      "label": "KataGo",
+      "kind": "ai",
+      "modelId": "katago-19x19",
+      "fallbackBotId": "search",
+      "handler": "katago",
+      "difficulties": [
+        {
+          "id": "beginner",
+          "label": "Beginner",
+          "description": "Picks among the AI's likely moves at random. Makes human-like mistakes."
+        },
+        {
+          "id": "easy",
+          "label": "Easy",
+          "description": "Picks among the AI's better moves, with some variety."
+        },
+        {
+          "id": "medium",
+          "label": "Medium",
+          "description": "Always plays the AI's first choice. Strong amateur."
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "description": "Reads ahead with a tree search. Very strong; slower on large boards."
+        }
+      ],
+      "defaultDifficulty": "medium",
+      "seats": {
+        "max": 2
+      },
+      "description": "KataGo (public-domain g170 network). Uses the board's own model: 9x9, 13x13 or 19x19."
+    }
+  ],
+  "aiModels": [
+    {
+      "id": "katago-9x9",
+      "label": "KataGo 9x9 (g170 b10c128)",
+      "path": "ai/katago-9x9.onnx",
+      "format": "onnx",
+      "sizeBytes": 11975376,
+      "sha256": "d8538fcd046ba15a49be5c10d18d1f5cdf1eb461a6bbadc9fcba4d6af3b557ad",
+      "inputs": [
+        {
+          "name": "board",
+          "shape": [
+            -1,
+            41,
+            9,
+            9
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "policy",
+          "shape": [
+            -1,
+            82
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "value",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ownership",
+          "shape": [
+            -1,
+            81
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "lead",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
+    },
+    {
+      "id": "katago-13x13",
+      "label": "KataGo 13x13 (g170 b10c128)",
+      "path": "ai/katago-13x13.onnx",
+      "format": "onnx",
+      "sizeBytes": 11975381,
+      "sha256": "de009fb2e077c551bf1de7527fae95cffecc3049e78cd714a2d31c3b4a16161d",
+      "inputs": [
+        {
+          "name": "board",
+          "shape": [
+            -1,
+            41,
+            13,
+            13
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "policy",
+          "shape": [
+            -1,
+            170
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "value",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ownership",
+          "shape": [
+            -1,
+            169
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "lead",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
+    },
+    {
+      "id": "katago-19x19",
+      "label": "KataGo 19x19 (g170 b10c128)",
+      "path": "ai/katago-19x19.onnx",
+      "format": "onnx",
+      "sizeBytes": 11975381,
+      "sha256": "63dae64b02eddd77882fae8d9839d45e38f8122d884b5b452a527a4704b65b7d",
+      "inputs": [
+        {
+          "name": "board",
+          "shape": [
+            -1,
+            41,
+            19,
+            19
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "policy",
+          "shape": [
+            -1,
+            362
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "value",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "ownership",
+          "shape": [
+            -1,
+            361
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "lead",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
     }
   ]
 }
